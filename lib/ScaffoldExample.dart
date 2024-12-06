@@ -5,7 +5,11 @@ class ScaffoldExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Scaffold Example')),
-      body: Center(child: Text('This is a Scaffold Example Page!')),
+      body: Center(
+          child: Text(
+        'This is a Scaffold Example Page!',
+        style: TextStyle(color: Colors.blue),
+      )),
     );
   }
 }
